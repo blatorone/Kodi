@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="skin.pellucid_MOD_Alex" version="3.0.0" name="Pellucid_MOD_Alex" provider-name="Blatorone">
-    <requires>
-        <import addon="xbmc.gui" version="5.15.0"/>
-        <import addon="script.skinshortcuts" version="1.1.4"/>
-    </requires>
-    <extension point="xbmc.gui.skin" debugging="false">
-        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+<addon id="skin.pellucid_MOD_Alex" name="Kodi" version="1.0.0" provider-name="blatorone">
+    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/blatorone/Kodi/main/repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/blatorone/Kodi/main/repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/blatorone/Kodi/main/repo/</datadir>
+        </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">A skin for Kodi by Alex</summary>
-        <description lang="en_GB">Built for the living room, Pellucid is a clean and carefully designed Kodi experience designed for maximum usability and minimum fuss. Skin Shortcuts addon support is available for full menu customisation.</description>
+        <summary>Kodi</summary>
+        <description>DESCRIPTION OF YOUR REPO HERE</description>
+        <disclaimer></disclaimer>
         <platform>all</platform>
-        <license>Creative Commons Attribution-Noncommercial-Share Alike 3.0</license>
         <assets>
-            <icon>resources/icon.png</icon>
-            <fanart>resources/fanart.jpg</fanart>
-            <screenshot>resources/screenshot-01.jpg</screenshot>
-            <screenshot>resources/screenshot-02.jpg</screenshot>
-            <screenshot>resources/screenshot-03.jpg</screenshot>
-            <screenshot>resources/screenshot-04.jpg</screenshot>
-            <screenshot>resources/screenshot-05.jpg</screenshot>
-            <screenshot>resources/screenshot-06.jpg</screenshot>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
