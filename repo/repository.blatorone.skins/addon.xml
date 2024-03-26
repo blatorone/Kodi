@@ -8,7 +8,7 @@
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Various Addons for Kodi</summary>
+        <summary>Kodi</summary>
         <description></description>
         <disclaimer></disclaimer>
         <platform>all</platform>
